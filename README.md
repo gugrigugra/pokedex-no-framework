@@ -13,10 +13,11 @@ HP/ATT/DEF/SP-ATT/SP-DEF
 ### View Pokémon Basic Info
 Such as Weight, Height and Type
 #### Built with
-
-- <a href="https://pokeapi.co/">PokéAPI</a> - RESTful API for retrieving Pokemon data
-- <a href="https://bulma.io/">Bulma</a> - Frontend CSS Framework
+- CSS
 
 ### Acknowledgments
 
 <a href="https://pokeapi.co/">PokéAPI</a> for providing the Pokemon data used in this project.
+
+## Website
+
