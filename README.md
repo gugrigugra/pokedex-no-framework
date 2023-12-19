@@ -20,11 +20,3 @@ Such as Weight, Height and Type
 ### Acknowledgments
 
 <a href="https://pokeapi.co/">PokéAPI</a> for providing the Pokemon data used in this project.
-
-#### Coming Soon:
-
-- ✔️ Autocompleting
-- Adding evolution Chain
-- Adding possibility to show multiple images of the Pokémon
-- Introduction of accounts and authentication
-- Creation of an App available on mobile
