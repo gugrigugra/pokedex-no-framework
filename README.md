@@ -21,3 +21,4 @@ Such as Weight, Height and Type
 
 ## Website
 
+https://gugrigugra.github.io/pokedex/index.html
