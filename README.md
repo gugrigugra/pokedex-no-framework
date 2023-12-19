@@ -1,5 +1,3 @@
-# pokedex
-description of every pokemon (pokedex), using API
 # PokéDex
 
 ### A simply & straightforward online Pokédex
