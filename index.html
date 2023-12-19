@@ -11,17 +11,17 @@
 	</head>
 	<body>
 		<main>
-			<img src="#" alt="pokemon" class="pokemon__image" />
+			<img src="#" alt="pokemon" class="pokemon_image" />
 
-			<h1 class="pokemon__data">
-				<span class="pokemon__number"></span> -
-				<span class="pokemon__name"></span>
+			<h1 class="pokemon_data">
+				<span class="pokemon_number"></span> -
+				<span class="pokemon_name"></span>
 			</h1>
 
 			<form class="form">
 				<input
 					type="search"
-					class="input__search"
+					class="input_search"
 					placeholder="Name or Number"
 					required
 				/>
@@ -30,11 +30,19 @@
 			</form>
 
 			<div class="buttons">
-				<button class="button btn-prev">Prev &lt;</button>
-				<button class="button btn-next">Next &gt;</button>
+				<button class="button btn-prev">Prev</button>
+				<button class="button btn-next">Next</button>
 			</div>
 
+			
+
 			<img src="static/images/pokedex.png" alt="pokedex" class="pokedex" />
+			
 		</main>
+		<div id="statsBox" class="stats-box hidden">
+				
+		</div>
 	</body>
+
+	<script src="static/js/index.js"></script>
 </html>

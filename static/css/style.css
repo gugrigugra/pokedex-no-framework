@@ -9,8 +9,12 @@
 
 body {
 	text-align: center;
-	background: linear-gradient(to bottom, #6ab7f5, #fff);
+	background: url('https://images.pexels.com/photos/4188296/pexels-photo-4188296.jpeg?auto=compress&cs=tinysrgb&w=1200');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	min-height: 100vh;
+	cursor: url("http://www.rw-designer.com/cursor-view/45695.png"), auto;
 }
 
 main {
@@ -25,7 +29,7 @@ main {
 	max-width: 425px;
 }
 
-.pokemon__image {
+.pokemon_image {
 	position: absolute;
 	bottom: 55%;
 	left: 50%;
@@ -33,16 +37,16 @@ main {
 	height: 18%;
 }
 
-.pokemon__data {
+.pokemon_data {
 	position: absolute;
 	font-weight: 600;
 	color: #aaa;
 	top: 54.5%;
 	right: 27%;
-	font-size: clamp(8px, 5vw, 25px);
+	font-size: clamp(8px, 5vw, 22px);
 }
 
-.pokemon__name {
+.pokemon_name {
 	color: #3a444d;
 	text-transform: capitalize;
 }
@@ -54,7 +58,7 @@ main {
 	left: 13.5%;
 }
 
-.input__search {
+.input_search {
 	width: 100%;
 	padding: 4%;
 	outline: none;
@@ -76,7 +80,8 @@ main {
 	gap: 20px;
 }
 
-.button, .submit-button {
+.button,
+.submit-button {
 	width: 50%;
 	padding: 4%;
 	border: 2px solid #000;
@@ -93,12 +98,33 @@ main {
 	font-size: 0.9rem;
 }
 
-input.submit-button{
-
+input.submit-button {
 	width: 30%;
+	text-align: center;
 	margin-top: 4%;
 	background-color: white;
-	color: red;
+	color: #d30a40;
 	box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
 	border-color: #444;
+}
+
+/* Aggiungi lo stile per il box delle statistiche */
+.stats-box {
+
+	position: absolute;
+	background-color: white;
+	border: 2px solid #e33e33;
+	border-radius: 10px;
+	padding: 1rem;
+	margin-top: 100px;
+	top: 50%;
+	left: 70%;
+}
+
+.hidden {
+	display: none;
+}
+
+h2{
+	text-transform:capitalize;
 }
